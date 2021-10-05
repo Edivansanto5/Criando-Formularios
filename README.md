@@ -1,2 +1,2 @@
 # Criando-Formularios
-<p> Esse formulario tem objetivo de acrecentar mais conheimento na criação de formularios </p>
+<p> Esse formulário tem objetivo de acrecentar mais conheimento na criação de formulários para a web  </p>
