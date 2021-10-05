@@ -12,8 +12,8 @@ form{
 }
 #conteiner{
     width: 700px;
-    height: 850px;
-    border: black solid 3px;
+    height: 880px;
+    border: black solid 2px;
     border-radius: 20px;
     background-color: skyblue;
   
@@ -35,14 +35,11 @@ form{
     
     font-size: larger;
 }
-#dia,#mes,#ano, #sexo{
+#dia,#mes,#ano, #sexo,#uf{
     font-size: larger;
 }
 
 p{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-h1{
-    text-align: center;
 }
