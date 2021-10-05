@@ -17,7 +17,7 @@
         <input type="password" name="senha"> <br> <br>
         Dada-Nascimento: <br><br>
         Dia:
-        <select name="dia">
+        <select name="dia" id="dia">
             <option value="dia">01</option>
             <option value="dia">02</option>
             <option value="dia">03</option>
@@ -51,7 +51,7 @@
             <option value="dia">31</option>
             </select>
             Mes:
-        <select name="mes">
+        <select name="mes" id="mes">
             <option value="mes">Janeiro</option>
             <option value="mes">Fevereiro</option>
             <option value="mes">Março</option>
@@ -67,7 +67,7 @@
             
         </select>
         Ano:
-        <select name="ano">
+        <select name="ano" id="ano">
             <option value="ano">2010</option>
             <option value="ano">2009</option>
             <option value="ano">2008</option>
@@ -89,8 +89,57 @@
             <option value="ano">1991</option>
             <option value="ano">1990</option>
         </select> <br><br>
-        <button>enviar</button>
+        Sexo [ M , F , outros ]:
+        <select name="sexo" id="sexo">
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feninino</option>
+            <option value="Homo-efetivo">Homo-efetivo</option>
+            <option value="outros">otros</option>
+            <option value="nao-declarar">prefiro,não declarar</option>
+        </select> <br> <br>
+        <h3>Endereço</h3>
+        CEP:
+        <input type="text" name="cep">
+        Numero:
+        <input type="text" name="numero">
+        Bairro:
+        <input type="text" name="bairro"> 
+        Estado:
+        <select name="uf" id="uf">
+            <option value="masculino">UF</option>
+            <option value="feminino">PI</option>
+            <option value="Homo-efetivo">CE</option>
+            <option value="outros">MA</option>
+            <option value="nao-declarar">SP</option>
+            <option value="masculino">RO</option>
+            <option value="feminino">AC</option>
+            <option value="Homo-efetivo">AM</option>
+            <option value="outros">RR</option>
+            <option value="nao-declarar">PA</option>
+            <option value="masculino">AP</option>
+            <option value="feminino">TO</option>
+            <option value="Homo-efetivo">RN</option>
+            <option value="outros">PB</option>
+            <option value="nao-declarar">PE</option>
+            <option value="masculino">AL</option>
+            <option value="feminino">SE</option>
+            <option value="Homo-efetivo">BA</option>
+            <option value="outros">MG</option>
+            <option value="nao-declarar">ES</option>
+            <option value="feminino">RJ</option>
+            <option value="Homo-efetivo">PR</option>
+            <option value="outros">SC</option>
+            <option value="nao-declarar">RS</option>
+            <option value="masculino">MS</option>
+            <option value="feminino">MT</option>
+            <option value="Homo-efetivo">GO</option>
+            <option value="outros">DF</option>
+        </select><br>
+
+        <input type="submit" value="Enviar"> 
+        <button type="reset">Limpar-Formulario</button>
     </form>
     
+   
 </body>
 </html>
