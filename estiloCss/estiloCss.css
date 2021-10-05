@@ -1,0 +1,48 @@
+input{
+    background-color: white;
+    border-radius: 10px;
+    font-size: 21px;
+    width: 600px;
+    height: 50px;
+   
+}
+form{
+    text-align: center ;
+
+}
+#conteiner{
+    width: 700px;
+    height: 850px;
+    border: black solid 3px;
+    border-radius: 20px;
+    background-color: skyblue;
+  
+   
+
+}
+#butaoEnviar{
+    background-color: tomato;
+    width: 120px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: larger;
+}
+#butãoLimpar{
+    background-color: tomato;
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+    
+    font-size: larger;
+}
+#dia,#mes,#ano, #sexo{
+    font-size: larger;
+}
+
+p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+}
