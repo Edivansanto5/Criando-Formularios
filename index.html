@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./estiloCss/estiloCss.css">
     <title>Criando Formulários web</title>
+    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+    
+    <script src="./javascript/index.js"></script>
+    
 </head>
 <body>
     <h1>Criando Formulários na web</h1>
@@ -100,15 +104,23 @@
                     <option value="outros">otros</option>
                     <option value="nao-declarar">prefiro,não declarar</option>
                 </select> <br><br>
-                <strong>Endereço</strong> <br>
-                <strong>CEP:</strong> <br>
-                <input type="text" name="cep"> <br>
-                <strong>Numero :</strong> <br>
-                <input type="text" name="numero"> <br>
-                <strong>Bairro:</strong>  <br>
-                <br>
-                <input type="text" name="bairro"> <br>
-            <strong>Estado:</strong> <br>
+                <div>
+                    <input type="text" id="cep" placeholder="CEP da Cidade">
+                </div>
+                <div>
+                    <input type="text" id="endereco" placeholder="Endereço">
+                </div>
+                <div>
+                    <input type="text" id="numero" placeholder="Numero/casa">
+                </div>
+                <div>
+                    <input type="text" id="bairro" placeholder="Bairro">
+                </div>
+                <div>
+                    <input type="text" id="estado" placeholder="Estado">
+                </div>
+               
+            
                 <select name="uf" id="uf">
                     <option value="uf">UF</option>
                     <option value="piaui">PI</option>
@@ -142,6 +154,7 @@
 
                 <input type="submit" value="Enviar" id="butaoEnviar"> 
                 <button type="reset" id="butãoLimpar">Limpar-Formulario</button>
+                
         </form>
 </div> 
     
